@@ -1,28 +1,31 @@
-## 💻 Run locally
+### MERCADOPAGO API
+API to process mercadopago payments
+
+### SDK MERCADO PAGO
+- [SDK PHP](https://github.com/mercadopago/sdk-php): SDK PHP
+
+### 💻 Run locally
 
 1. Install dependencies
-
 ```bash
 $ composer install
 ```
+2. copy .env
+```bash
+cp .env.example .env
+````
 
-2. Application key generate
+3. Application key generate
 ```bash
 php artisan key:generate
 ```
 
-3. environment variables
+4. environment variables
 ```bash
 MERCADOPAGO_ACCESS_TOKEN= "PRIVATE KEY"  
 ```
 
-4. run serve
+5. run serve
 ```bash
 php artisan serve
 ```
-
-## MERCADOPAGO API
-API to process mercadopago payments
-
-## SDK MERCADO PAGO
-- [SDK PHP](https://github.com/mercadopago/sdk-php): SDK PHP
